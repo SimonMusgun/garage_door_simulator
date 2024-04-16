@@ -1,0 +1,348 @@
+FILE,LAD 2:
+SOR,0 BST,1 XIC,I:1/0 NXB,1 XIC,O:2/0 BND,1 XIC,I:1/3 XIO,O:2/1 XIC,I:1/2 OTE,O:2/0 EOR,0
+RCM,Pressing the open switch will cause the door to move upward.
+SOR,1 BST,1 XIC,I:1/1 NXB,1 XIC,O:2/1 BND,1 XIO,I:1/4 XIO,O:2/0 XIC,I:1/2 OTE,O:2/1 EOR,1
+RCM,Pressing the close switch will cause the door move downward
+SOR,2 BST,1 XIC,I:1/4 NXB,1 XIC,O:2/1 XIC,S:4/5 BND,1 OTE,O:2/4 EOR,2
+RCM,Shut light will be energized when fully closed and flushing when closing.
+SOR,3 BST,1 XIO,I:1/3 NXB,1 XIC,O:2/0 XIC,S:4/5 BND,1 OTE,O:2/3 EOR,3
+RCM,Open light will be energized when fully open and flushing when openning.
+SOR,4 BST,1 XIC,O:2/0 NXB,1 BST,2 XIC,O:2/1 NXB,2 XIC,I:1/2 XIO,I:1/4 XIC,I:1/3 XIC,S:4/5 BND,2 BND,1 OTE,O:2/2 EOR,4
+RCM,Ajar light will flash when door halted in between two ends and will illuminate in steady state if the door is in motion
+SOR,5 END,5
+RCM,
+FILE,SBR 3:
+SOR,0 END,0
+RCM,
+FILE,SBR 4:
+SOR,0 END,0
+RCM,
+FILE,SBR 5:
+SOR,0 END,0
+RCM,
+FILE,SBR 6:
+SOR,0 END,0
+RCM,
+FILE,SBR 7:
+SOR,0 END,0
+RCM,
+FILE,SBR 8:
+SOR,0 END,0
+RCM,
+FILE,SBR 9:
+SOR,0 END,0
+RCM,
+BTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+NTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+FTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+SYMBOLS
+I:1/0 OPEN
+I:1/3 LS1
+O:2/0 MOTOR UP
+I:1/1 CLOSE
+I:1/4 LS2
+O:2/1 MOTOR DOWN
+O:2/3 OPEN_LIGHT
+O:2/4 SHUT_LIGHT
+I:1/2 STOP
+O:2/2 AJAR
